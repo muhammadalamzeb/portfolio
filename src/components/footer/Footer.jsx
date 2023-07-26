@@ -30,7 +30,7 @@ const Footer = ()=>{
                      <a href="https://www.linkedin.com/in/muhammad-alamzeb-mahar-5bb01b233" rel="auhor" className="footer__social-link" target="_blank">
                     <i class="uil uil-linkedin"></i>
                     </a>
-                    <a href="https://github.com/MuhammadAlamzeb" rel="author" className="footer__social-link" target="_blank">
+                    <a href="https://github.com/muhammadalamzeb" rel="author" className="footer__social-link" target="_blank">
                     <i class="uil uil-github"></i>
                     </a>
                     <a href="https://twitter.com/shayankhanmahar?t=mp-R0_Gg6gcd21GLN9ghzg&s=09" rel="author" className="footer__social-link" target="_blank">
