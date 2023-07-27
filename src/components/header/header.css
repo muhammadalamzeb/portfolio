@@ -119,6 +119,6 @@
         padding: 2rem 0.25rem 4rem;
     }
     .nav__list{
-        column-gap: 0;
+      column-gap: 0;
     }
 }

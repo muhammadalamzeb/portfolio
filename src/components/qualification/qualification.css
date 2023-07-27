@@ -67,6 +67,10 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+.certificate{
+    width: 520px;
+    height: auto;
+}
 
 /*============== BREAKPOINTS ============*/
 /* For Large Devices */
@@ -91,11 +95,34 @@
     .qualification__button{
         margin: 0 var(--mb-0-75);
     }
+    .certificate{
+        width: 420px;
+    }
+    .qualification__button{
+        font-size: var(--normal-font-size);
+    }
+    .qualification__icon{
+        font-size: 1.4rem;
+    }
   }
-  
+  @media screen and ( max-width: 450px){
+    .certificate{
+        width: 300px;
+    }
+    .qualification__button{
+        font-size: var(--smaller-font-size);
+       
+    }
+  }
   /* For small devices */
   @media screen and (max-width: 350px){
     .qualification__data{
         gap: 0.5rem;
     } 
+    .certificate{
+        width: 250px;
+    }
+    .qualification__button{
+        font-size: var(--tiny-font-size);
+    }
   }

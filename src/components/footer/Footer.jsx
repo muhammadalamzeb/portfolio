@@ -27,7 +27,7 @@ const Footer = ()=>{
                     <a href="https://www.facebook.com/shayankhan.mahar.1" rel="author" className="footer__social-link" target="_blank">
                      <i class="bx bxl-facebook"></i>
                      </a>
-                     <a href="https://www.linkedin.com/in/muhammad-alamzeb-mahar-5bb01b233" rel="auhor" className="footer__social-link" target="_blank">
+                     <a href="https://www.linkedin.com/in/muhammad-alamzeb-mahar-5bb01b233" rel="author" className="footer__social-link" target="_blank">
                     <i class="uil uil-linkedin"></i>
                     </a>
                     <a href="https://github.com/muhammadalamzeb" rel="author" className="footer__social-link" target="_blank">

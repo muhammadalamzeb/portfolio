@@ -32,7 +32,7 @@ const Contact = ()=>{
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
+                            <span className="contact__card-data">shayankhanmahar@gmail.com</span>
                             <a href="mailto:shayankhanmahar@gmail.com" className="contact__button">
                                 {"  "}Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -42,7 +42,7 @@ const Contact = ()=>{
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">+92-0000-000</span>
+                            <span className="contact__card-data">+92-3153905661</span>
                             <a href="https://wa.me/+923153905661" className="contact__button">
                                 {" "}Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -53,7 +53,7 @@ const Contact = ()=>{
                             <i className="bx bxl-linkedin contact__card-icon"></i>
                             <h3 className="contact__card-title">LinkedIn</h3>
                             <span className="contact__card-data">Muhammad Alamzeb Mahar</span>
-                            <a href="" className="contact__button">
+                            <a href="https://www.linkedin.com/in/muhammad-alamzeb-mahar-5bb01b233" className="contact__button">
                                 {" "}Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>

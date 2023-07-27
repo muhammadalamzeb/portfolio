@@ -57,3 +57,13 @@
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 550px){
+    .footer__title{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .footer__title{
+        font-size: 1rem;
+    }
+}

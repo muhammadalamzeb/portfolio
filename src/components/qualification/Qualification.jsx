@@ -1,5 +1,17 @@
 import React,{useState} from "react";
 import './qualification.css'
+import {certificates} from './certificates';
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Qualification = ()=>{
     const [toggleState,setToggleState] = useState(1);
@@ -27,6 +39,19 @@ const Qualification = ()=>{
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
+
+                    <div className={
+                        toggleState === 3 ?
+                        "qualification__button qualification__active button--flex"
+                        :
+                        "qualification__button button--flex"
+                    }
+                    onClick={()=>{toggleTab(3)}}
+                    >
+                        <i className="bx bx-certification qualification__icon"></i>
+                        Certifications
+                    </div>
+
                     <div className={
                         toggleState === 2 ?
                         "qualification__button qualification__active button--flex"
@@ -51,13 +76,13 @@ const Qualification = ()=>{
                         <div className="qualification__data">
                             
                             <div>
-                            <h3 className="qualification__title">BACHELORS OF SCIENCE</h3>
+                            <h3 className="qualification__title">BS Computer Science</h3>
                             <span className="qualification__subtitle">
                                 Sukkur IBA University
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i>
-                                2023 - Present
+                                2020 - Present
                             </div>
                             </div>
                             <div>
@@ -67,7 +92,7 @@ const Qualification = ()=>{
                             
 
                         </div>
-
+                        {/*
                         <div className="qualification__data">
                             <div></div>
                             <div>
@@ -127,7 +152,7 @@ const Qualification = ()=>{
                             </div>
 
                         </div>
-
+                        */}
                     </div>
 
                     <div className={toggleState === 2 ? 
@@ -138,13 +163,13 @@ const Qualification = ()=>{
                         <div className="qualification__data">
                             
                             <div>
-                            <h3 className="qualification__title">Product Designer</h3>
+                            <h3 className="qualification__title">Web Developer</h3>
                             <span className="qualification__subtitle">
-                                Sukkur IBA University
+                                Freelancer
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i>
-                                2023 - Present
+                                2020 - Present
                             </div>
                             </div>
                             <div>
@@ -153,7 +178,7 @@ const Qualification = ()=>{
                             </div>
 
                         </div>
-
+                        {/*
                         <div className="qualification__data">
                             <div></div>
                             <div>
@@ -193,9 +218,50 @@ const Qualification = ()=>{
                             </div>
 
                         </div>
-
+                        */}
                     </div>
+                    
+                    <div className={toggleState === 3 ? 
+                    "qualification__content qualification__content-active certificate"
+                    :
+                    "qualification__content"}>
+                        <Swiper className="qualification__data "
+                        effect={'coverflow'}
+                        loop={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        grabCursor={true}
+                        centeredSlides={true}
+                        slidesPerView={'auto'}
+                        coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                        }}
+                        //pagination={true}
+                        modules={[EffectCoverflow, Pagination]}>
+                        {certificates.map(({id, image})=>{
+                        return(
+                        <SwiperSlide className="" key={id}>
+                        <img src={image} alt="" className="" />
+                        </SwiperSlide>
+                        );
+                        })}
 
+{certificates.map(({id, image})=>{
+                        return(
+                        <SwiperSlide className="" key={id}>
+                        <img src={image} alt="" className=""/>
+                        </SwiperSlide>
+                        );
+                        })}
+
+                        </Swiper>
+                        
+                    </div>
 
                 </div>
 
