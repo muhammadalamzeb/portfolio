@@ -62,7 +62,7 @@ const Data = () =>{
             I am a skilled and experienced web developer proficient in HTML, CSS, JavaScript and REACT. 
             With a commitment to excellence, I specialize in designing visually appealing and user-friendly websites that meet the highest professional standards. 
             Through effective collaboration and meticulous attention to detail, I consistently deliver optimized and impactful web solutions. 
-            I am currently seeking new opportunities to apply my expertise and contribute to innovative web development projects.
+            I am currently seeking new opportunities to apply my expertise and contribute to innovative web development projects.!!!!
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
