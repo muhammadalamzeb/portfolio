@@ -183,7 +183,12 @@
         font-size: 30px;
     }
   } 
-  
+  @media screen and (max-width: 480px){
+    .home__title{
+        font-size: 20px;
+    }
+  }
+
   /* For small devices */
   @media screen and (max-width: 350px){
     .home__img{
