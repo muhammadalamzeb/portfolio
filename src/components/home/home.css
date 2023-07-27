@@ -198,3 +198,12 @@
         font-size: 20px;
     }
   }
+  @media screen and (max-width: 300px){
+    .home__hand{
+        width: 19px;
+        height: 22px;
+    }
+    .home__title{
+        font-size: 17px;
+    }
+  }
