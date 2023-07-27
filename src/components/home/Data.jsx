@@ -57,7 +57,7 @@ const Data = () =>{
             </svg>
             </h1>
             
-            <h3 className="home__subtitle">Web Developer!</h3>
+            <h3 className="home__subtitle">Web Developer</h3>
             <p className="home__description">
             I am a skilled and experienced web developer proficient in HTML, CSS, JavaScript and REACT. 
             With a commitment to excellence, I specialize in designing visually appealing and user-friendly websites that meet the highest professional standards. 
