@@ -1,3 +1,16 @@
+  
+  .active-link::after,
+  .nav__link:hover::after{
+  content: '';
+  width: 40%;
+  height: 2.2px;
+  background: #088178;
+  position: relative;
+  bottom: -2px;
+  right: 0px;
+}
+
+
 .header{
     width: 100%;
     position: fixed;
