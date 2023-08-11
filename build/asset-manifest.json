@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4b48a69f.css",
+    "main.css": "/portfolio/static/css/main.08428fa0.css",
     "main.js": "/portfolio/static/js/main.d662fdac.js",
     "static/media/Portfolio_Updated.png": "/portfolio/static/media/Portfolio_Updated.de56ebbc815cfda9e69c.png",
     "static/media/Introduction_To_Back-End_Development_4.jpg": "/portfolio/static/media/Introduction_To_Back-End_Development_4.75bbd6fecd9339ad6e66.jpg",
@@ -16,11 +16,11 @@
     "static/media/testimonial2.png": "/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/portfolio/index.html",
-    "main.4b48a69f.css.map": "/portfolio/static/css/main.4b48a69f.css.map",
+    "main.08428fa0.css.map": "/portfolio/static/css/main.08428fa0.css.map",
     "main.d662fdac.js.map": "/portfolio/static/js/main.d662fdac.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b48a69f.css",
+    "static/css/main.08428fa0.css",
     "static/js/main.d662fdac.js"
   ]
 }
