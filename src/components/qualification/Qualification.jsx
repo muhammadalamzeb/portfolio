@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const Qualification = ()=>{
-    const [toggleState,setToggleState] = useState(1);
+    const [toggleState,setToggleState] = useState(3);
     const toggleTab = (index)=>{
         setToggleState(index);
     }
@@ -248,14 +248,6 @@ const Qualification = ()=>{
                         return(
                         <SwiperSlide className="" key={id}>
                         <img src={image} alt="" className="" />
-                        </SwiperSlide>
-                        );
-                        })}
-
-{certificates.map(({id, image})=>{
-                        return(
-                        <SwiperSlide className="" key={id}>
-                        <img src={image} alt="" className=""/>
                         </SwiperSlide>
                         );
                         })}
