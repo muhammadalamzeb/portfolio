@@ -59,10 +59,7 @@ const Data = () =>{
             
             <h3 className="home__subtitle">Computer Scientist</h3>
             <p className="home__description">
-            I am a skilled and experienced web developer proficient in HTML, CSS, JavaScript and REACT. 
-            With a commitment to excellence, I specialize in designing visually appealing and user-friendly websites that meet the highest professional standards. 
-            Through effective collaboration and meticulous attention to detail, I consistently deliver optimized and impactful web solutions. 
-            I am currently seeking new opportunities to apply my expertise and contribute to innovative web development projects.
+            "Passionate and analytical Computer Scientist with a strong foundation in programming, algorithm design, and data analysis. Skilled in developing efficient solutions for complex technical challenges and experienced in a variety of languages and tools, including Python, Java, and machine learning frameworks. Known for a detail-oriented approach to problem-solving, I’m driven by a curiosity for innovative technology and a commitment to continuous learning in AI, software development, and data science."
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
