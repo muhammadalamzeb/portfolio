@@ -83,7 +83,7 @@ const Qualification = ()=>{
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i>
-                                2020 - Present
+                                2020 - 2024
                             </div>
                             </div>
                             <div>
