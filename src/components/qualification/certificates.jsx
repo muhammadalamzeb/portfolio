@@ -6,6 +6,7 @@ import Image5 from '../../certificates/Version_Control_Meta_5.jpg';
 import Image6 from '../../certificates/Java_certificate_6.jpg';
 import Image7 from '../../certificates/Certs-290_7.jpg';
 import Image8 from '../../certificates/Cdc_certificate.jpg';
+import Image9 from '../../certificates/intro_Cybersecurity.png';
 
 export const certificates = [
     {
@@ -40,5 +41,8 @@ export const certificates = [
         id: 8,
         image:  Image8,
     },
-
+    {
+        id: 9,
+        image:  Image9,
+    },
 ];

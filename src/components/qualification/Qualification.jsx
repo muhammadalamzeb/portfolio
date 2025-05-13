@@ -164,13 +164,13 @@ const Qualification = ()=>{
                         <div className="qualification__data">
                             
                             <div>
-                            <h3 className="qualification__title">Web Developer</h3>
+                            <h3 className="qualification__title">Uvovorp</h3>
                             <span className="qualification__subtitle">
-                                Freelancer
+                                Expert Writer (Computer Science)
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i>
-                                2020 - Present
+                                2023 - 2024
                             </div>
                             </div>
                             <div>
