@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://muhammadalamzeb.github.io/sitemap.xml
+
+# Disallow admin or private areas if you have any
+Disallow: /admin/
+Disallow: /private/ 
