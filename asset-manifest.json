@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c4cc11cc.css",
-    "main.js": "/portfolio/static/js/main.6e460e6d.js",
-    "static/media/mypic_1.png": "/portfolio/static/media/mypic_1.d94446f0ef3a8478cfe2.png",
-    "static/media/Introduction_To_Back-End_Development_4.jpg": "/portfolio/static/media/Introduction_To_Back-End_Development_4.75bbd6fecd9339ad6e66.jpg",
-    "static/media/Introduction_To_Front-End_Development_1.jpg": "/portfolio/static/media/Introduction_To_Front-End_Development_1.e03a313d54afcc0ec782.jpg",
-    "static/media/HTML_CSS_inDepth_2.jpg": "/portfolio/static/media/HTML_CSS_inDepth_2.8489c6fe24aee5273737.jpg",
-    "static/media/Version_Control_Meta_5.jpg": "/portfolio/static/media/Version_Control_Meta_5.02bf3d63a30c4df39052.jpg",
-    "static/media/JavaScript_Meta_3.jpg": "/portfolio/static/media/JavaScript_Meta_3.cd431e7d9ae09894b0d9.jpg",
-    "static/media/Cdc_certificate.jpg": "/portfolio/static/media/Cdc_certificate.338df143153a82adc05f.jpg",
-    "static/media/Java_certificate_6.jpg": "/portfolio/static/media/Java_certificate_6.ca427fc83bec71004290.jpg",
-    "static/media/intro_Cybersecurity.png": "/portfolio/static/media/intro_Cybersecurity.7628e42d788f3d0ee637.png",
-    "static/media/Certs-290_7.jpg": "/portfolio/static/media/Certs-290_7.9d26cfe002fde3d3b224.jpg",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.e3f7c857a1d458a6955b.pdf",
-    "static/media/testimonial3.png": "/portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/testimonial2.png": "/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/testimonial1.png": "/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
-    "index.html": "/portfolio/index.html",
-    "main.c4cc11cc.css.map": "/portfolio/static/css/main.c4cc11cc.css.map",
-    "main.6e460e6d.js.map": "/portfolio/static/js/main.6e460e6d.js.map"
+    "main.css": "/static/css/main.44b64e48.css",
+    "main.js": "/static/js/main.fcac31d7.js",
+    "static/media/mypic_1.png": "/static/media/mypic_1.d94446f0ef3a8478cfe2.png",
+    "static/media/Introduction_To_Back-End_Development_4.jpg": "/static/media/Introduction_To_Back-End_Development_4.75bbd6fecd9339ad6e66.jpg",
+    "static/media/Introduction_To_Front-End_Development_1.jpg": "/static/media/Introduction_To_Front-End_Development_1.e03a313d54afcc0ec782.jpg",
+    "static/media/HTML_CSS_inDepth_2.jpg": "/static/media/HTML_CSS_inDepth_2.8489c6fe24aee5273737.jpg",
+    "static/media/Version_Control_Meta_5.jpg": "/static/media/Version_Control_Meta_5.02bf3d63a30c4df39052.jpg",
+    "static/media/JavaScript_Meta_3.jpg": "/static/media/JavaScript_Meta_3.cd431e7d9ae09894b0d9.jpg",
+    "static/media/Cdc_certificate.jpg": "/static/media/Cdc_certificate.338df143153a82adc05f.jpg",
+    "static/media/Java_certificate_6.jpg": "/static/media/Java_certificate_6.ca427fc83bec71004290.jpg",
+    "static/media/intro_Cybersecurity.png": "/static/media/intro_Cybersecurity.7628e42d788f3d0ee637.png",
+    "static/media/Certs-290_7.jpg": "/static/media/Certs-290_7.9d26cfe002fde3d3b224.jpg",
+    "static/media/CV.pdf": "/static/media/CV.e3f7c857a1d458a6955b.pdf",
+    "static/media/testimonial3.png": "/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/index.html",
+    "main.44b64e48.css.map": "/static/css/main.44b64e48.css.map",
+    "main.fcac31d7.js.map": "/static/js/main.fcac31d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4cc11cc.css",
-    "static/js/main.6e460e6d.js"
+    "static/css/main.44b64e48.css",
+    "static/js/main.fcac31d7.js"
   ]
 }
