@@ -1,73 +1,130 @@
-# Portfolio
+# Muhammad Alamzeb | Portfolio
 
-A personal portfolio website showcasing my professional experience, skills, projects, certifications, and education. This site is implemented with modern web technologies and is hosted via GitHub Pages.
+A modern personal portfolio website built with React, designed to showcase my professional background, core skills, experience, services, and contact information. The website is optimized for responsiveness and is deployed through GitHub Pages.
 
-## Table of Contents
+## Live Demo
 
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Development](#development)
-- [Deployment](#deployment)
-- [Project Details](#project-details)
-- [Future Work](#future-work)
-- [Contact](#contact)
+https://muhammadalamzeb.site
 
 ## About
 
-This repository contains a responsive, accessible, and performance-minded personal portfolio that highlights my career journey, notable projects, certifications, and skills. It is intended to provide a clear, professional presentation for potential employers, collaborators, and clients.
+This project serves as a digital portfolio for showcasing:
+
+- professional experience
+- technical skills and expertise
+- education and certifications
+- selected services
+- client/testimonial feedback
+- contact information for collaboration or opportunities
+
+The portfolio is structured as a single-page React application with smooth navigation and a polished UI.
 
 ## Features
 
-- Home / Introduction
-- Experience and project case studies
-- Certifications and education
-- Skills and technologies
-- Contact information
-- Responsive layout and cross-browser support
+- Responsive portfolio layout
+- Professional hero section
+- About Me section with downloadable CV
+- Skills and expertise overview
+- Services offered
+- Qualification and experience timeline
+- Testimonials section
+- Contact form with EmailJS integration
+- Social links and direct contact options
+- Deployed on GitHub Pages
 
 ## Tech Stack
 
-- JavaScript (React)
+- React 18
+- JavaScript
 - HTML5
 - CSS3
+- EmailJS
+- Swiper
+- GitHub Pages
 
-## Development
+## Project Structure
 
-To run the project locally:
+```bash
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
+└── build/
+```
+
+## Local Development
 
 1. Clone the repository:
 
-   git clone https://github.com/muhammadalamzeb/portfolio.git
-2. Install dependencies:
+```bash
+git clone https://github.com/muhammadalamzeb/portfolio.git
+```
 
-   npm install
-3. Start the development server:
+2. Navigate to the project folder:
 
-   npm start
+```bash
+cd portfolio
+```
 
-Replace the above commands with your project's actual scripts if they differ.
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+The app will run locally in the browser at the default React development URL.
+
+## Available Scripts
+
+```bash
+npm start
+npm run build
+npm test
+npm run deploy
+```
+
+### Script Overview
+
+- `npm start` — starts the development server
+- `npm run build` — creates a production build
+- `npm test` — runs the test suite
+- `npm run deploy` — deploys the production build to GitHub Pages
 
 ## Deployment
 
-The site is published via GitHub Pages. To deploy updates, build the production bundle and push the changes to the branch configured for GitHub Pages.
+This portfolio is configured for GitHub Pages deployment using the `gh-pages` package.
 
-## Project Details
+To deploy:
 
-Duration: ~4–5 weeks
-
-This portfolio was designed and developed as a solo project. I handled the full lifecycle including design, implementation, and content creation. Key challenges included CSS layout decisions and ensuring consistent behavior across browsers — these were addressed through iterative testing and refinement.
-
-## Future Work
-
-Planned improvements include:
-
-- Adding new projects and case studies
-- Improving accessibility and performance
-- Introducing automated testing and CI for deployments
+```bash
+npm run deploy
+```
 
 ## Contact
 
-GitHub: https://github.com/muhammadalamzeb
+- Email: shayankhanmahar@gmail.com
+- WhatsApp: +92-3153905661
+- LinkedIn: https://www.linkedin.com/in/muhammad-alamzeb-mahar-5bb01b233
+- GitHub: https://github.com/muhammadalamzeb
 
-Thank you for visiting — feedback and opportunities are welcome.
+## License
+
+This project is for personal portfolio use and is not currently licensed for commercial distribution.
+
+## Summary
+
+This portfolio project reflects a clean, professional, and modern approach to personal branding. It is designed to provide an online presence that communicates my technical skills, professional background, and readiness for opportunities in web development and related fields.
